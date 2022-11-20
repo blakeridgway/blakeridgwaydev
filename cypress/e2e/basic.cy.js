@@ -4,6 +4,6 @@ describe('sample render test', () => {
   });
 
   it('displays the title text', () => {
-    cy.get('h1').contains('Digital Craftsman (Developer/Open Source Advocate/Tinkerer)');
+    cy.get('h1').contains('Digital Craftsman');
   });
 });
